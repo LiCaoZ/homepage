@@ -1,0 +1,16 @@
+{
+  "name": "personal_homepage",
+  "version": "0.0.1",
+  "description": "一个简洁的个人主页",
+  "main": "index.js",
+  "repository": "git@github.com:LiCaoZ/homepage.git",
+  "author": "LiCaoZ <admin@licaoz.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.35"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}

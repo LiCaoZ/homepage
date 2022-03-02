@@ -6,10 +6,9 @@ actions:
     link: /en/about
     type: primary
 features:
-  - title: 技能树
-    details: 初步掌握少量前后端语言的拼写
-  - title: 教育程度
-    details: 
-  - title: 高性能
-    details: VuePress 会为每个页面预渲染生成静态的 HTML，同时，每个页面被加载的时候，将作为 SPA 运行。
+  - title: Skill Tree
+    details: Preliminary mastery of the spelling of a small number of front-end and back-end languages.
+  - title: The best at
+    details: Make things even worse.
+footer: Chongqing Public Network Security No. 50011702500718
 ---

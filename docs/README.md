@@ -10,6 +10,5 @@ features:
     details: 初步掌握少量前后端语言的拼写
   - title: 最擅长
     details: 让事情变得更糟糕
-  - title: 编不
-    details: 下去了
+footer: 渝公网安备 50011702500718 号
 ---

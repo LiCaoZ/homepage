@@ -10,11 +10,11 @@
 
 域名注册服务商：烟台帝思普网络科技有限公司（DNSPod, Inc.）
 
-公安联网备案号：[渝公网安备 50011702500718号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=50011702500718)
+公安联网备案号：[渝公网安备 50011702500718 号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=50011702500718)
 
 暂未进行工信部 ICP 备案，别问，问就是重庆通管局要求至少满 16 才能备案。
 
-基于 [Typecho](https://github.com/typecho/typecho) / [G 主题](https://github.com/youranreus/G) / [CloudFlare Free Plan](https://www.cloudflare.com/zh-cn/)
+基于 [VuePress](https://v2.vuepress.vuejs.org/) / [CloudFlare Free Plan](https://www.cloudflare.com/zh-cn/)
 
 网站语言：简体中文 / English
 
@@ -53,10 +53,6 @@ Peace and Love，中立万岁，愿望是世界和平。
 ## 以及
 
 本站已加入[十年之约](https://www.foreverblog.cn/blog/2004.html) & [中文独立博客列表](https://github.com/timqian/chinese-independent-blogs)，期待十年后再见到你~
-
-感谢 [又拍云联盟](https://www.upyun.com) 提供中国大陆范围内的免费 CDN加速/云存储 服务 ~~虽然我这个域名没备案用不了就是了~~
-
-感谢 [AHdark Source Storage](https://ahdark.com/source) 提供主题静态文件国内 CDN 加速服务
 
 感谢 [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats/blob/master/docs/readme_cn.md) & [Github Chart API](https://ghchart.rshah.org/) 提供的 GitHub 统计图表
 

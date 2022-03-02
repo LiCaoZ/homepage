@@ -2,35 +2,37 @@
 
 Some of the following contents are translated by machine, and your suggestions for modification are welcome.
 
+Some of the content in the English translation is not exactly the same as the Simplified Chinese original.
+
 ## About this site
 
 ### Website Basic Information
 
-Domain: LiCaoZ.COM A relatively short mainstream domain name related to my name [已续费至 2031-11-19 14:03:25](https://whois.nic.com)
+Domain: LiCaoZ.COM A relatively short mainstream domain name related to my name [Renewed until 2031-11-19 14:03:25](https://whois.nic.com)
 
-域名注册服务商：烟台帝思普网络科技有限公司（DNSPod, Inc.）
+Domain Name Registrar: DNSPod, Inc.
 
-公安联网备案号：[渝公网安备 50011702500718号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=50011702500718)
+Public Security Network Record Number: [Chongqing Public Network Security No. 50011702500718](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=50011702500718)
 
-暂未进行工信部 ICP 备案，别问，问就是重庆通管局要求至少满 16 才能备案。
+The Ministry of Industry and Information Technology ICP filing has not yet been carried out, because the Chongqing Municipal Communications Administration requires at least 16 years of age to be able to file.
 
-基于 [Typecho](https://github.com/typecho/typecho) / [G 主题](https://github.com/youranreus/G) / [CloudFlare Free Plan](https://www.cloudflare.com/zh-cn/)
+Based on [VuePress](https://v2.vuepress.vuejs.org/) / [CloudFlare Free Plan](https://www.cloudflare.com/zh-cn/)
 
-网站语言：简体中文 / English
+Website language: Simplified Chinese / English
 
-## 关于我
+## About me
 
-LiCaoZ / 2007.06 生于河南省平顶山市湛河区 / 平顶山市开源路小学 / 合川区行知小学 / 重庆市合川中学初2022级 / 重庆市合川区 / [微博中学逐浪记者团](https://weibo.com/7244459159/KDYreaZIY) / [合川区无道科技工作室](https://www.tianyancha.com/company/4540533850) / 业余开发者 / 共青团员
+LiCaoZ / Born in Zhanhe District, Pingdingshan City, Henan Province in June 2007 / Kaiyuan Road Primary School in Pingdingshan City / Hechuan District Xingzhi Primary School / Chongqing Hechuan Middle School, Class of 2022 / Hechuan District, Chongqing / [Weibo Middle School Chasing Wave Reporter Group](https://weibo.com/7244459159/KDYreaZIY) / Amateur Developer
 
-想上本部高中，期待有一天能够成为家长口中“别人的孩子”。
+I want to go to the Hechuan High School (The high school department of Hechuan Middle School), and I look forward to one day becoming a "someone else's child" in the mouths of parents.
 
-出没在互联网的每一个角落。
+Haunted in every corner of the Internet.
 
-学校监控美食区 / 娱乐区 / 生活区 UP 主
+School-monitored food area / entertainment area / living area uploader.
 
-是个吃吃吃货，每天一杯牛奶必不可少。
+Is a foodie, a glass of milk every day is essential.
 
-Peace and Love，中立万岁，愿望是世界和平。
+Peace and Love, long live neutrality, wish is world peace.
 
 ### GitHub
 
@@ -40,24 +42,20 @@ Peace and Love，中立万岁，愿望是世界和平。
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=licaoz&layout=compact)
 
-### 性格
+### Disposition
 
-~~或许~~ 比较内向，不善于 **在现实中** 主动和人搭话。
+~~Maybe~~ I'm more introverted and not good at **in reality** taking the initiative to talk to people.
 
-十六型人格测试 - [INTP](https://www.16personalities.com/ch/intp-%E4%BA%BA%E6%A0%BC) / [INFP](https://www.16personalities.com/ch/infp-%E4%BA%BA%E6%A0%BC) 反复横跳
+The Sixteen Personality Test - [INTP](https://www.16personalities.com/ch/intp-%E4%BA%BA%E6%A0%BC) / [INFP](https://www.16personalities.com/ch/infp-%E4%BA%BA%E6%A0%BC) Repeatedly hopping
 
-## 联系
+## Contact
 
-邮箱 admin [at] licaoz.com / QQ 群组 NzI5NzExNzY0== / [Telegram 频道](https://t.me/LiCaoZ_COM) / [WeiBo](https://weibo.com/u/5912241478) / [Twitter](https://twitter.com/LiCaoZ)
+E-Mail admin [at] licaoz.com / QQ Group NzI5NzExNzY0== / [Telegram Channel](https://t.me/LiCaoZ_COM) / [WeiBo](https://weibo.com/u/5912241478) / [Twitter](https://twitter.com/LiCaoZ)
 
-## 以及
+## And...
 
-本站已加入[十年之约](https://www.foreverblog.cn/blog/2004.html) & [中文独立博客列表](https://github.com/timqian/chinese-independent-blogs)，期待十年后再见到你~
+This site has joined the [Agreement of Ten Years](https://www.foreverblog.cn/blog/2004.html) & [List of Chinese Independent Blogs](https://github.com/timqian/chinese-independent-blogs ), looking forward to seeing you in ten years~
 
-感谢 [又拍云联盟](https://www.upyun.com) 提供中国大陆范围内的免费 CDN加速/云存储 服务 ~~虽然我这个域名没备案用不了就是了~~
+Thanks to [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats/blob/master/docs/readme_cn.md) & [Github Chart API](https://ghchart.rshah.org/) provide GitHub statistics charts
 
-感谢 [AHdark Source Storage](https://ahdark.com/source) 提供主题静态文件国内 CDN 加速服务
-
-感谢 [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats/blob/master/docs/readme_cn.md) & [Github Chart API](https://ghchart.rshah.org/) 提供的 GitHub 统计图表
-
-感谢在我建站路中帮助过我的小伙伴们
+Thank you to my friends who helped me in building my website

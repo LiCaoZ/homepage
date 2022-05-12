@@ -2,29 +2,41 @@
 
 Some of the following contents are translated by machine, and your suggestions for modification are welcome.
 
-Some of the content in the English translation is not exactly the same as the Simplified Chinese original.
+Some content in the English translation may not be exactly the same as the original Simplified Chinese.
 
 ## About this site
 
 ### Website Basic Information
 
-Domain: LiCaoZ.COM A relatively short mainstream domain name related to my name [Renewed until 2031-11-19 14:03:25](https://whois.nic.com)
+Domain: LiCaoZ.COM A relatively short mainstream domain name related to my name (Renewed until 2031-11-19 14:03:25)
 
 Domain Name Registrar: DNSPod, Inc.
 
+MIIT ICP record number: [Chongqing ICP No. 2020010307-2](https://beian.miit.gov.cn/#/Integrated/recordQuery)
+
 Public Security Network Record Number: [Chongqing Public Network Security No. 50011702500718](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=50011702500718)
 
-The Ministry of Industry and Information Technology ICP filing has not yet been carried out, because the Chongqing Municipal Communications Administration requires at least 16 years of age to be able to file.
-
-Based on [VuePress](https://v2.vuepress.vuejs.org/) / [CloudFlare Free Plan](https://www.cloudflare.com/zh-cn/)
+Moe websites number: [Moe ICP No. 20222468](https://icp.gov.moe/?keyword=20222468)
 
 Website language: Simplified Chinese / English
 
 ## About me
 
-LiCaoZ / Born in Zhanhe District, Pingdingshan City, Henan Province in June 2007 / Kaiyuan Road Primary School in Pingdingshan City / Hechuan District Xingzhi Primary School / Chongqing Hechuan Middle School, Class of 2022 / Hechuan District, Chongqing / [Weibo Middle School Chasing Wave Reporter Group](https://weibo.com/7244459159/KDYreaZIY) / Amateur Developer
+World level 14, member of the Communist Youth League, amateur developer; Have my own view on the world.
 
-I want to go to the Hechuan High School (The high school department of Hechuan Middle School), and I look forward to one day becoming a "someone else's child" in the mouths of parents.
+Unlock regions (probably in chronological order):
+
+- Henan Province: Pingdingshan / Yuzhou / Zhengzhou
+
+- Shandong Province: Qingdao / Rizhao
+
+- Chongqing City: Yubei District / Yuzhong District / Hechuan District / Tongliang District
+
+- Shaanxi Province: Hantai District, Hanzhong City
+
+- Sichuan Province: Langzhong, Nanchong / Guang'an
+
+I have signed the agreement of the top class in our high school, and I look forward to one day becoming "other people's children" as parents say.
 
 Haunted in every corner of the Internet.
 
@@ -50,7 +62,7 @@ The Sixteen Personality Test - [INTP](https://www.16personalities.com/ch/intp-%E
 
 ## Contact
 
-E-Mail admin [at] licaoz.com / QQ Group NzI5NzExNzY0== / [Telegram Channel](https://t.me/LiCaoZ_COM) / [WeiBo](https://weibo.com/u/5912241478) / [Twitter](https://twitter.com/LiCaoZ)
+E-Mail admin [at] licaoz.com / QQ Group [NzI5NzExNzY0==](https://qm.qq.com/cgi-bin/qm/qr?k=BQHEFmOMIbA6I9rXR-sZTMIeaHKdkxgb&jump_from=webapi) / [Telegram Channel](https://t.me/LiCaoZ_COM) / [WeiBo](https://weibo.com/u/5912241478) / [Twitter](https://twitter.com/LiCaoZ)
 
 ## And...
 

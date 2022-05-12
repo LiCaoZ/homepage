@@ -2,27 +2,37 @@
 
 ## 关于本站
 
-已经不知道是第几个博客了，之前的都因包括但不限于手贱删库或玩炸等主观或客观事故消失在了历史的洪流中。
-
 ### 网站基本信息
 
-域名：LiCaoZ.COM 和我名字有关的一个比较短的主流的域名 [已续费至 2031-11-19 14:03:25](https://whois.nic.com)
+域名：LiCaoZ.COM 和我名字有关的一个比较短的主流的域名 （已续费至 2031-11-19 14:03:25）
 
 域名注册服务商：烟台帝思普网络科技有限公司（DNSPod, Inc.）
 
-公安联网备案号：[渝公网安备 50011702500718 号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=50011702500718)
+工信部 ICP 备案号：[渝ICP备2020010307号-2](https://beian.miit.gov.cn/#/Integrated/recordQuery)
 
-暂未进行工信部 ICP 备案，别问，问就是重庆通管局要求至少满 16 才能备案。
+公安联网备案号：[渝公网安备50011702500718号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=50011702500718)
 
-基于 [VuePress](https://v2.vuepress.vuejs.org/) / [CloudFlare Free Plan](https://www.cloudflare.com/zh-cn/)
+萌站「备案」号：[萌ICP备20222468号](https://icp.gov.moe/?keyword=20222468)
 
 网站语言：简体中文 / English
 
 ## 关于我
 
-LiCaoZ / 2007.06 生于河南省平顶山市湛河区 / 平顶山市开源路小学 / 合川区行知小学 / 重庆市合川中学初2022级 / 重庆市合川区 / [微博中学逐浪记者团](https://weibo.com/7244459159/KDYreaZIY) / [合川区无道科技工作室](https://www.tianyancha.com/company/4540533850) / 业余开发者 / 共青团员
+世界等级 14 级，共青团员，业余开发者；对这个世界有自己的看法。
 
-想上本部高中，期待有一天能够成为家长口中“别人的孩子”。
+解锁地区（大概是按时间进行一个序的排）：
+
+- 河南省平顶山市、禹州市、郑州市
+
+- 山东省青岛市、日照市
+
+- 重庆市渝北区、渝中区、合川区、铜梁区
+
+- 陕西省汉中市汉台区
+
+- 四川省南充市阆中市、广安市
+
+已经签了本部高中特尖班的协议，期待有一天能够成为家长口中“别人的孩子”。
 
 出没在互联网的每一个角落。
 
@@ -48,11 +58,11 @@ Peace and Love，中立万岁，愿望是世界和平。
 
 ## 联系
 
-邮箱 admin [at] licaoz.com / QQ 群组 NzI5NzExNzY0== / [Telegram 频道](https://t.me/LiCaoZ_COM) / [WeiBo](https://weibo.com/u/5912241478) / [Twitter](https://twitter.com/LiCaoZ)
+邮箱 admin [at] licaoz.com / QQ 群组 [NzI5NzExNzY0==](https://qm.qq.com/cgi-bin/qm/qr?k=BQHEFmOMIbA6I9rXR-sZTMIeaHKdkxgb&jump_from=webapi) / [Telegram 频道](https://t.me/LiCaoZ_COM) / [WeiBo](https://weibo.com/u/5912241478) / [Twitter](https://twitter.com/LiCaoZ)
 
 ## 以及
 
-本站已加入[十年之约](https://www.foreverblog.cn/blog/2004.html) & [中文独立博客列表](https://github.com/timqian/chinese-independent-blogs)，期待十年后再见到你~
+本站已加入 [十年之约](https://www.foreverblog.cn/blog/2004.html) & [中文独立博客列表](https://github.com/timqian/chinese-independent-blogs)，期待十年后再见到你~
 
 感谢 [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats/blob/master/docs/readme_cn.md) & [Github Chart API](https://ghchart.rshah.org/) 提供的 GitHub 统计图表
 

@@ -7,8 +7,9 @@ actions:
     type: primary
 features:
   - title: 技能树
-    details: 初步掌握少量前后端语言的拼写
-  - title: 最擅长
-    details: 让事情变得更糟糕
-footer: 渝公网安备 50011702500718 号
+    details: 可能是倒着点的技能树
+  - title: 当前坐标
+    details: 重庆市合川区
+footer:  <a href="//beian.miit.gov.cn/#/Integrated/recordQuery" rel="noopener noreferrer nofollow">渝ICP备2020010307号-2</a> | <a href="//www.beian.gov.cn/portal/registerSystemInfo?recordcode=50011702500718" rel="noopener noreferrer nofollow">渝公网安备50011702500718号</a> | <a href="//icp.gov.moe/?keyword=20222468" rel="noopener noreferrer nofollow">萌ICP备20222468号</a>
+footerHtml: true
 ---

@@ -3,7 +3,7 @@ home: true
 heroImage: https://sdn.geekzu.org/avatar/deb6addcb5b3df43e93b3d7cb0caa46a?s=150
 actions:
   - text: Learn More
-    link: /en/about
+    link: /en/about.html
     type: primary
 features:
   - title: Skill Tree

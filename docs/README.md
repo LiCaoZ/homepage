@@ -3,7 +3,7 @@ home: true
 heroImage: https://sdn.geekzu.org/avatar/deb6addcb5b3df43e93b3d7cb0caa46a?s=150
 actions:
   - text: 了解更多
-    link: /about
+    link: /about.html
     type: primary
 features:
   - title: 技能树

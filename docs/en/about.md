@@ -36,7 +36,7 @@ Unlock regions (probably in chronological order):
 
 - Sichuan Province: Langzhong, Nanchong / Guang'an
 
-I have signed the agreement of the top class in our high school, and I look forward to one day becoming "other people's children" as parents say.
+I have been fortunate enough to pass the indicators to enter the school's high school department, and I look forward to one day becoming "other people's children" as parents say.
 
 Haunted in every corner of the Internet.
 

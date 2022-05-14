@@ -2,7 +2,10 @@ module.exports = {
     lang: "zh-CN",
     title: "LiCaoZ",
     description: "Hi, I'm LiCaoZ!",
-
+    head: [
+        ["link", { rel: "icon", href: "https://sdn.geekzu.org/avatar/deb6addcb5b3df43e93b3d7cb0caa46a?s=32" }],
+        ["script", { async, defer, "data-website-id": "ce8a808a-f8bf-4c5a-94ce-50ca1cd1b97d", src: "https://stat.licaoz.com/api.js", "data-do-not-track": "true" }]
+    ],
     locales: {
         "/": {
             lang: "zh-CN",

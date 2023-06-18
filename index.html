@@ -1,33 +1,391 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-  <head>
+<html lang="en">
+
+<head>
+    <title>LiCaoZ</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="generator" content="VuePress 2.0.0-beta.35">
+    <meta name="description" content="Hello! It's LiCaoZ here!">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@LiCaoZ">
+    <meta name="twitter:creator" content="@LiCaoZ">
+    <meta property="og:title" content="LiCaoZ">
+    <meta property="og:description" content="Hello! It's LiCaoZ here!">
+    <meta property="og:url" content="https://www.licaoz.com">
+    <link rel="canonical" href="https://www.licaoz.com/">
+    <link href="https://unpkg.com/@primer/css@^20.2.4/dist/primer.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
     <style>
-      :root {
-        --c-bg: #fff;
-      }
-      html.dark {
-        --c-bg: #22272e;
-      }
-      html, body {
-        background-color: var(--c-bg);
-      }
+        mark {
+            background: linear-gradient(transparent 75%, rgba(84, 174, 255, 0.4) 0px);
+            /* Thank You Baoshuo */
+        }
+
+        .id {
+            color: darkcyan;
+        }
+
+        * {
+            font-family: -apple-system, BlinkMacSystemFont, ubuntu, "pingfang sc", "helvetica neue", "microsoft yahei", "STHeiti Light", sans-serif;
+            /* Thank You Coxxs */
+        }
+
+        .Header {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        /* 让 footer 固定在底边 */
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            max-width: 768px;
+        }
+
+        .infoBox>.Box-item>li {
+            /* Goodbye marker */
+            list-style: none;
+        }
+
+        .role {
+            color: gray;
+            font-size: medium;
+        }
+
+        .infoBox {
+            padding-top: 25px !important;
+            padding-bottom: 0;
+            line-height: 1.75;
+        }
+
+        .quickLinks {
+            gap: 8px;
+            /* Thank You Baoshuo */
+        }
+
+        .wia {
+            padding-top: 15px;
+        }
+
+        .wia>.contacts>.wiaBox>.Box-item>li {
+            list-style: none;
+        }
+
+        .about {
+            padding-top: 15px;
+        }
     </style>
+</head>
+
+<body>
+    <div class="container-md">
+        <!-- Header -->
+        <div class="Header border-bottom color-bg-default color-fg-default">
+            <div class="Header-item">
+                <a class="Header-link color-fg-default f4 d-flex flex-items-center">
+                    LiCaoZ
+                </a>
+            </div>
+            <div class="Header-item">
+                <a class="Header-link color-fg-default">Home</a>
+            </div>
+            <div class="Header-item Header-item">
+                <a class="Header-link color-fg-default">Friends</a>
+            </div>
+            <div class="header-item Header-item--full">
+
+            </div>
+            <div class="Header-item mr-0 hide-sm">
+                <img class="avatar" alt="LiCaoZ" src="https://avatars.githubusercontent.com/u/67832651?v=4" width="24"
+                    height="24" />
+            </div>
+        </div>
+        <div class="adaptationNotice" style="padding-top: 20px !important;">
+            <div class="flash border-dashed rounded-3">
+                <!-- <%= octicon "info" %> -->
+                <svg class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                    <path fill-rule="evenodd"
+                        d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z">
+                    </path>
+                </svg>
+                Adaptation to mobile devices will take some time...<button type="button"
+                    class="btn btn-sm tooltipped tooltipped-w flash-action rounded-2 adaptationNoticeClose"
+                    aria-label="Since we do not use cookies to store your information, it will reappear after the next refresh.">Get
+                    it!</button>
+            </div>
+        </div>
+
+        <div class="clearfix border-bottom">
+            <!-- Name -->
+            <div class="col-lg-6 col-sm-3 float-left p-1">
+                <h1 class="f00 lh-condensed-ultra mb-0 mt-4">Hello,<br>I'm <mark class="id">LiCaoZ</mark>!</h1>
+                <p class="role">Student | Part-Time Developer</p>
+                <p class="quickLinks d-inline-flex"><a class="btn" href="#" role="button"><svg class="octicon"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                            <path
+                                d="M0 2.75C0 1.784.784 1 1.75 1h12.5c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25ZM14.5 6h-13v7.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25Zm-6-3.5v2h6V2.75a.25.25 0 0 0-.25-.25ZM5 2.5v2h2v-2Zm-3.25 0a.25.25 0 0 0-.25.25V4.5h2v-2Z">
+                            </path>
+                        </svg> Blog</a><a class="btn" href="#" role="button"><svg class="octicon"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                            <path
+                                d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z">
+                            </path>
+                        </svg> GitHub</a></p>
+            </div>
+            <!-- Info Right -->
+            <div class="infoBox col-6 float-right hide-sm" style="font-size: medium;">
+                <div class="Box-item border rounded-3 p-2 mb-2">
+                    <li class="Box-item"><svg aria-hidden="true" focusable="false" role="img"
+                            class="StyledOcticon-sc-1wsaof9-0 jNfZWl" viewBox="0 0 16 16" width="16" height="16"
+                            fill="currentColor"
+                            style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible">
+                            <path
+                                d="m12.596 11.596-3.535 3.536a1.5 1.5 0 0 1-2.122 0l-3.535-3.536a6.5 6.5 0 1 1 9.192-9.193 6.5 6.5 0 0 1 0 9.193Zm-1.06-8.132v-.001a5 5 0 1 0-7.072 7.072L8 14.07l3.536-3.534a5 5 0 0 0 0-7.072ZM8 9a2 2 0 1 1-.001-3.999A2 2 0 0 1 8 9Z">
+                            </path>
+                        </svg> <a href="https://en.wikipedia.org/wiki/Chongqing" target="_blank">Chongqing, PRC.</a>
+                    </li>
+                    <li class="Box-item"><svg aria-hidden="true" focusable="false" role="img"
+                            class="StyledOcticon-sc-1wsaof9-0 jNfZWl" viewBox="0 0 16 16" width="16" height="16"
+                            fill="currentColor"
+                            style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible">
+                            <path
+                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm7-3.25v2.992l2.028.812a.75.75 0 0 1-.557 1.392l-2.5-1A.751.751 0 0 1 7 8.25v-3.5a.75.75 0 0 1 1.5 0Z">
+                            </path>
+                        </svg> UTC +8</li>
+                    <li class="Box-item"><svg aria-hidden="true" focusable="false" role="img"
+                            class="StyledOcticon-sc-1wsaof9-0 jNfZWl" viewBox="0 0 16 16" width="16" height="16"
+                            fill="currentColor"
+                            style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible">
+                            <path
+                                d="M1.75 2h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 14H1.75A1.75 1.75 0 0 1 0 12.25v-8.5C0 2.784.784 2 1.75 2ZM1.5 12.251c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V5.809L8.38 9.397a.75.75 0 0 1-.76 0L1.5 5.809v6.442Zm13-8.181v-.32a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25v.32L8 7.88Z">
+                            </path>
+                        </svg> <a href="mailto:admin@licaoz.com" target="_blank">admin@licaoz.com</a></li>
+                    <li class="Box-item"><svg aria-hidden="true" focusable="false" role="img"
+                            class="StyledOcticon-sc-1wsaof9-0 jNfZWl" viewBox="0 0 16 16" width="16" height="16"
+                            fill="currentColor"
+                            style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible">
+                            <path
+                                d="M10.5 0a5.499 5.499 0 1 1-1.288 10.848l-.932.932a.749.749 0 0 1-.53.22H7v.75a.749.749 0 0 1-.22.53l-.5.5a.749.749 0 0 1-.53.22H5v.75a.749.749 0 0 1-.22.53l-.5.5a.749.749 0 0 1-.53.22h-2A1.75 1.75 0 0 1 0 14.25v-2c0-.199.079-.389.22-.53l4.932-4.932A5.5 5.5 0 0 1 10.5 0Zm-4 5.5c-.001.431.069.86.205 1.269a.75.75 0 0 1-.181.768L1.5 12.56v1.69c0 .138.112.25.25.25h1.69l.06-.06v-1.19a.75.75 0 0 1 .75-.75h1.19l.06-.06v-1.19a.75.75 0 0 1 .75-.75h1.19l1.023-1.025a.75.75 0 0 1 .768-.18A4 4 0 1 0 6.5 5.5ZM11 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z">
+                            </path>
+                        </svg> <a href="https://github.com/LiCaoZ.gpg">8A76 DACB 6D8D 5255</a></li>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Who I am -->
+        <div class="wia clearfix col-12 d-block" style="font-size: medium;">
+            <div class="wiawia d-inline-block col-lg-6 col-sm-3 float-left p-1">
+                <h2>Who I am</h2>
+                <div class="wiaBox">
+                    <div class="Box-item">
+                        <li class="Box-item">
+                            <svg class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16"
+                                height="16">
+                                <path
+                                    d="M11.93 8.5a4.002 4.002 0 0 1-7.86 0H.75a.75.75 0 0 1 0-1.5h3.32a4.002 4.002 0 0 1 7.86 0h3.32a.75.75 0 0 1 0 1.5Zm-1.43-.75a2.5 2.5 0 1 0-5 0 2.5 2.5 0 0 0 5 0Z">
+                                </path>
+                            </svg> 16 years old
+                        </li>
+                        <li class="Box-item">
+                            <svg class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16"
+                                height="16">
+                                <path
+                                    d="M9.5 3.25a2.25 2.25 0 1 1 3 2.122V6A2.5 2.5 0 0 1 10 8.5H6a1 1 0 0 0-1 1v1.128a2.251 2.251 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.5 0v1.836A2.493 2.493 0 0 1 6 7h4a1 1 0 0 0 1-1v-.628A2.25 2.25 0 0 1 9.5 3.25Zm-6 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Zm8.25-.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM4.25 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z">
+                                </path>
+                            </svg> Grade 11 next semester
+                        </li>
+                        <li class="Box-item">
+                            <svg class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16"
+                                height="16">
+                                <path
+                                    d="M7.693 1.066a.747.747 0 0 1 .614 0l7.25 3.25a.75.75 0 0 1 0 1.368L13 6.831v2.794c0 1.024-.81 1.749-1.66 2.173-.893.447-2.075.702-3.34.702-.278 0-.55-.012-.816-.036a.75.75 0 0 1 .133-1.494c.22.02.45.03.683.03 1.082 0 2.025-.221 2.67-.543.69-.345.83-.682.83-.832V7.503L8.307 8.934a.747.747 0 0 1-.614 0L4 7.28v1.663c.296.105.575.275.812.512.438.438.688 1.059.688 1.796v3a.75.75 0 0 1-.75.75h-3a.75.75 0 0 1-.75-.75v-3c0-.737.25-1.358.688-1.796.237-.237.516-.407.812-.512V6.606L.443 5.684a.75.75 0 0 1 0-1.368ZM2.583 5 8 7.428 13.416 5 8 2.572ZM2.5 11.25v2.25H4v-2.25c0-.388-.125-.611-.25-.735a.697.697 0 0 0-.5-.203.707.707 0 0 0-.5.203c-.125.124-.25.347-.25.735Z">
+                                </path>
+                            </svg> Student at <a href="https://zh.wikipedia.org/wiki/合川中学" target="_blank"
+                                rel="nofollow">Hechuan
+                                High School of Chongqing</a>
+                        </li>
+                    </div>
+
+                </div>
+            </div>
+            <div class="contacts d-inline-block col-6 float-right hide-sm">
+                <h2>Where I am</h2>
+                <div class="wiaBox">
+                    <div class="Box-item">
+                        Every-corner of the Internet.
+                        <li class="Box-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 273.5 222.3" role="img" class="octicon"
+                                height="16" width="16">
+                                <title>Twitter</title>
+                                <path
+                                    d="M273.5 26.3a109.77 109.77 0 0 1-32.2 8.8 56.07 56.07 0 0 0 24.7-31 113.39 113.39 0 0 1-35.7 13.6 56.1 56.1 0 0 0-97 38.4 54 54 0 0 0 1.5 12.8A159.68 159.68 0 0 1 19.1 10.3a56.12 56.12 0 0 0 17.4 74.9 56.06 56.06 0 0 1-25.4-7v.7a56.11 56.11 0 0 0 45 55 55.65 55.65 0 0 1-14.8 2 62.39 62.39 0 0 1-10.6-1 56.24 56.24 0 0 0 52.4 39 112.87 112.87 0 0 1-69.7 24 119 119 0 0 1-13.4-.8 158.83 158.83 0 0 0 86 25.2c103.2 0 159.6-85.5 159.6-159.6 0-2.4-.1-4.9-.2-7.3a114.25 114.25 0 0 0 28.1-29.1">
+                                </path>
+                            </svg> <a>@LiCaoZ</a>
+                        </li>
+                        <li class="Box-item">
+                            <svg class="octicon" width="16" height="16" viewBox="0 0 1000 1000" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+                                <title>Telegram</title>
+                                <defs>
+                                    <linearGradient x1="50%" y1="0%" x2="50%" y2="99.2583404%" id="linearGradient-1">
+                                        <stop stop-color="#2AABEE" offset="0%"></stop>
+                                        <stop stop-color="#229ED9" offset="100%"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <circle id="Oval" fill="url(#linearGradient-1)" cx="500" cy="500" r="500"></circle>
+                                    <path
+                                        d="M226.328419,494.722069 C372.088573,431.216685 469.284839,389.350049 517.917216,369.122161 C656.772535,311.36743 685.625481,301.334815 704.431427,301.003532 C708.567621,300.93067 717.815839,301.955743 723.806446,306.816707 C728.864797,310.92121 730.256552,316.46581 730.922551,320.357329 C731.588551,324.248848 732.417879,333.113828 731.758626,340.040666 C724.234007,419.102486 691.675104,610.964674 675.110982,699.515267 C668.10208,736.984342 654.301336,749.547532 640.940618,750.777006 C611.904684,753.448938 589.856115,731.588035 561.733393,713.153237 C517.726886,684.306416 492.866009,666.349181 450.150074,638.200013 C400.78442,605.66878 432.786119,587.789048 460.919462,558.568563 C468.282091,550.921423 596.21508,434.556479 598.691227,424.000355 C599.00091,422.680135 599.288312,417.758981 596.36474,415.160431 C593.441168,412.561881 589.126229,413.450484 586.012448,414.157198 C581.598758,415.158943 511.297793,461.625274 375.109553,553.556189 C355.154858,567.258623 337.080515,573.934908 320.886524,573.585046 C303.033948,573.199351 268.692754,563.490928 243.163606,555.192408 C211.851067,545.013936 186.964484,539.632504 189.131547,522.346309 C190.260287,513.342589 202.659244,504.134509 226.328419,494.722069 Z"
+                                        id="Path-3" fill="#FFFFFF"></path>
+                                </g>
+                            </svg>
+                            <a>@LiCaoZ</a>
+                        </li>
+                        <li class="Box-item">
+                            <svg class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16"
+                                height="16">
+                                <title>GitHub</title>
+                                <path
+                                    d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z">
+                                </path>
+                            </svg>
+                            <a>@LiCaoZ</a>
+                        </li>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="about col-12" style="font-size: medium;">
+            <h2>About</h2>
+            <p>Sixteen years old, a sophomore in high school, and an amateur developer.</p>
+            <p>Unlocked regions (probably sorted by time):</p>
+            <p style="line-height: 1.5;">
+                <li>Pingdingshan & Yuzhou & Zhengzhou, Henan Province</li>
+                <li>Qingdao & Rizhao, Shandong Province</li>
+                <li>Yubei District & Yuzhong District & Hechuan District & Tongliang District, Chongqing</li>
+                <li>Hanzhong, Shaanxi Province</li>
+                <li>Langzhong, Nanchong & Guang'an, Sichuan Province</li>
+            </p>
+            <p>My dream is to computer science and geography at well-known universities such as MIT, YALE, PKU, THU, USTC, CQU, SWU, etc., although the results are a mess.</p>
+            <p>In every corner of the Internet.</p>
+            <p>School Monitors Food Zone & Entertainment Zone & Living Zone Video Uploader</p>
+            <p>Peace and Love, Long Live Neutrality. I Wish for World Peace.</p>
+            <h3>Character</h3>
+            <p><del>Maybe</del> I'm more introverted and not good at talking to people actively in reality (well, I'm not good at it on the Internet either).</p>
+            <p>16 Personalities - <a href="https://www.16personalities.com/infp-personality">INFP-T</a> (06/18/23)</p>
+            <h3>Languages I can speak</h3>
+            <p>Chinese (Simplified) | 简体中文 (中国大陆) | zh-Hans-CHN</p>
+            <p>Chinese (Traditional) | 繁體中文 (台灣) | zh-Hant-TW</p>
+            <p>English (United States) | en-US</p>
+        </div>
+
+
+        <!-- Footer but use Header -->
+        <footer>
+            <div class="pb-5 pt-0" style="margin-top: 100px">
+                <details class="dropdown details-reset details-overlay d-inline-block">
+                    <summary class="btn" aria-haspopup="true">
+                        <svg class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16"
+                            height="16">
+                            <path
+                                d="M3.22 10.53a.749.749 0 0 1 0-1.06l4.25-4.25a.749.749 0 0 1 1.06 0l4.25 4.25a.749.749 0 1 1-1.06 1.06L8 6.811 4.28 10.53a.749.749 0 0 1-1.06 0Z">
+                            </path>
+                        </svg> Languages
+                    </summary>
+
+                    <ul class="dropdown-menu dropdown-menu-ne">
+                        <li><a class="dropdown-item" href="#url">中文 (简体)</a></li>
+                        <li><a class="dropdown-item" href="#url">中文 (繁體)</a></li>
+                        <li><a class="dropdown-item" href="#url">中文 (Microsoft)</a></li>
+                    </ul>
+                </details>
+            </div>
+            <div class="Header border-top color-bg-default color-fg-default mb-0">
+                <div class="Header-item--full">
+                    <a class="Header-link color-fg-default">&copy; 2019 - <span class="year"></span> LiCaoZ</a>
+                </div>
+                <div class="Header-item Header-item mr-0 hide-sm">
+                    <a class="Header-link color-fg-default" href="https://beian.miit.gov.cn/"
+                        rel="nofollow">渝ICP备2020010307号-2&MediumSpace;</a>
+                    <a class="Header-link color-fg-default" rel="nofollow">渝公网安备50011702500718号</a>
+                </div>
+        </footer>
+        <div class="p-1 position-fixed bottom-0 left-0 javaScriptNotice">
+            <div class="Toast anim-fade-in">
+                <span class="Toast-icon">
+                    <!-- <%= octicon "info" %> -->
+                    <svg width="14" height="16" viewBox="0 0 14 16" class="octicon octicon-info" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                            d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z" />
+                    </svg>
+                </span>
+                <span class="Toast-content">This website uses JavaScript to improve user experience, which does not
+                    collect your private information.</span>
+            </div>
+        </div>
+    </div>
     <script>
-      const userMode = localStorage.getItem('vuepress-color-scheme');
-			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
-				document.documentElement.classList.toggle('dark', true);
-			}
+        if ((document.querySelector('.container-md').offsetHeight + document.querySelector('footer').offsetHeight) > window.innerHeight) {
+            document.querySelector('footer').style.position = 'relative';
+        } else {
+            if ((document.querySelector('.container-md').offsetHeight + document.querySelector('footer').offsetHeight) < window.innerHeight) {
+                document.querySelector('footer').style.position = 'fixed';
+            }
+        }
+        // UTC +8 time now
+        setInterval(function () {
+            var date = new Date();
+            var time = date.toLocaleString('zh-CN', { hour12: false });
+            // format: Hour(13) : Minute(01)
+            time = time.split(' ')[1].split(':')[0] + ":" + time.split(' ')[1].split(':')[1];
+            document.querySelector('.container-md > .clearfix > .float-right > .Box-item > li:nth-child(2)').innerHTML = '<svg aria-hidden="true" focusable="false" role="img" class="StyledOcticon-sc-1wsaof9-0 jNfZWl" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm7-3.25v2.992l2.028.812a.75.75 0 0 1-.557 1.392l-2.5-1A.751.751 0 0 1 7 8.25v-3.5a.75.75 0 0 1 1.5 0Z"></path></svg> ' + '<a href="https://time.is/UTC+8" target="_blank">' + time + ' (UTC +8)</a>';
+        }, 1000);
+        // Copyright Year Now
+        date = new Date();
+        year = date.getFullYear();
+
+        document.querySelector('.container-md > footer > .Header > .Header-item--full > a.Header-link > span.year').innerHTML = year;
+        // Close Adaptation Notice
+        document.querySelector('.adaptationNoticeClose').addEventListener('click', function () {
+            // fade out
+            // document.querySelector('.adaptationNotice').style.display = 'none';
+            document.querySelector('.adaptationNotice').classList.add('anim-fade-out');
+            // remove
+            setTimeout(function () {
+                document.querySelector('.adaptationNotice').remove();
+            }, 1000);
+        });
+        // Close JavaScript Notice
+        setTimeout(function () {
+            document.querySelector('.javaScriptNotice').classList.add('anim-fade-out');
+            setTimeout(function () {
+                document.querySelector('.javaScriptNotice').remove();
+            }, 1000);
+        }, 5000);
+
+        // Listen to resize event
+        window.addEventListener('resize', function () {
+            if (document.querySelector('.container-md').offsetHeight > window.innerHeight) {
+                document.querySelector('footer').style.position = 'relative';
+            } else {
+                if (document.querySelector('.container-md').offsetHeight < window.innerHeight) {
+                    document.querySelector('footer').style.position = 'fixed';
+                }
+            }
+        });
     </script>
-    <link rel="icon" href="https://sdn.geekzu.org/avatar/deb6addcb5b3df43e93b3d7cb0caa46a?s=32"><title>LiCaoZ</title><meta name="description" content="嗨，我是 LiCaoZ！">
-    <link rel="modulepreload" href="/assets/app.d8e9d425.js"><link rel="modulepreload" href="/assets/index.html.8e64aafb.js"><link rel="modulepreload" href="/assets/index.html.504c7800.js"><link rel="modulepreload" href="/assets/plugin-vue_export-helper.21dcd24c.js">
-    <link rel="stylesheet" href="/assets/style.16fb1ed6.css">
-  </head>
-  <body>
-    <div id="app"><!--[--><div class="theme-container no-sidebar"><!--[--><header ref_key="navbar" class="navbar"><div class="toggle-sidebar-button" title="切换侧边栏" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a aria-current="page" href="/" class="router-link-active router-link-exact-active"><img class="logo" src="https://sdn.geekzu.org/avatar/deb6addcb5b3df43e93b3d7cb0caa46a?s=64" alt="LiCaoZ"><span class="site-name can-hide">LiCaoZ</span></a></span><div class="navbar-items-wrapper" style=""><!--[--><!--]--><nav class="navbar-items can-hide"><!--[--><div class="navbar-item"><a aria-current="page" href="/" class="router-link-active router-link-exact-active" aria-label="首页"><!--[--><!--]--> 首页 <!--[--><!--]--></a></div><div class="navbar-item"><a class="external-link" href="https://licaoz.com" rel="noopener noreferrer" target="_blank" aria-label="博客"><!--[--><!--]--> 博客 <span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">在新窗口打开</span></span><!--[--><!--]--></a></div><div class="navbar-item"><div class="navbar-dropdown-wrapper"><button class="navbar-dropdown-title" type="button" aria-label="更多"><span class="title">更多</span><span class="arrow down"></span></button><button class="navbar-dropdown-title-mobile" type="button" aria-label="更多"><span class="title">更多</span><span class="right arrow"></span></button><!--[--><ul style="display:none;" class="navbar-dropdown"><!--[--><li class="navbar-dropdown-item"><a class="external-link" href="https://github.com/LiCaoZ" rel="noopener noreferrer" target="_blank" aria-label="GitHub"><!--[--><!--]--> GitHub <span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">在新窗口打开</span></span><!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a class="external-link" href="https://licaoz.com/donation" rel="noopener noreferrer" target="_blank" aria-label="捐赠"><!--[--><!--]--> 捐赠 <span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">在新窗口打开</span></span><!--[--><!--]--></a></li><!--]--></ul><!--]--></div></div><div class="navbar-item"><a href="/about.html" class="" aria-label="关于"><!--[--><!--]--> 关于 <!--[--><!--]--></a></div><div class="navbar-item"><div class="navbar-dropdown-wrapper"><button class="navbar-dropdown-title" type="button" aria-label="选择语言"><span class="title">选择语言</span><span class="arrow down"></span></button><button class="navbar-dropdown-title-mobile" type="button" aria-label="选择语言"><span class="title">选择语言</span><span class="right arrow"></span></button><!--[--><ul style="display:none;" class="navbar-dropdown"><!--[--><li class="navbar-dropdown-item"><a aria-current="page" href="/" class="router-link-active router-link-exact-active" aria-label="简体中文"><!--[--><!--]--> 简体中文 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/en/" class="" aria-label="English"><!--[--><!--]--> English <!--[--><!--]--></a></li><!--]--></ul><!--]--></div></div><!--]--></nav><!--[--><!--]--><button class="toggle-dark-button" title="切换夜间模式"><svg style="" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg style="display:none;" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><!--]--><div class="sidebar-mask"></div><!--[--><aside class="sidebar"><nav class="navbar-items"><!--[--><div class="navbar-item"><a aria-current="page" href="/" class="router-link-active router-link-exact-active" aria-label="首页"><!--[--><!--]--> 首页 <!--[--><!--]--></a></div><div class="navbar-item"><a class="external-link" href="https://licaoz.com" rel="noopener noreferrer" target="_blank" aria-label="博客"><!--[--><!--]--> 博客 <span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">在新窗口打开</span></span><!--[--><!--]--></a></div><div class="navbar-item"><div class="navbar-dropdown-wrapper"><button class="navbar-dropdown-title" type="button" aria-label="更多"><span class="title">更多</span><span class="arrow down"></span></button><button class="navbar-dropdown-title-mobile" type="button" aria-label="更多"><span class="title">更多</span><span class="right arrow"></span></button><!--[--><ul style="display:none;" class="navbar-dropdown"><!--[--><li class="navbar-dropdown-item"><a class="external-link" href="https://github.com/LiCaoZ" rel="noopener noreferrer" target="_blank" aria-label="GitHub"><!--[--><!--]--> GitHub <span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">在新窗口打开</span></span><!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a class="external-link" href="https://licaoz.com/donation" rel="noopener noreferrer" target="_blank" aria-label="捐赠"><!--[--><!--]--> 捐赠 <span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">在新窗口打开</span></span><!--[--><!--]--></a></li><!--]--></ul><!--]--></div></div><div class="navbar-item"><a href="/about.html" class="" aria-label="关于"><!--[--><!--]--> 关于 <!--[--><!--]--></a></div><div class="navbar-item"><div class="navbar-dropdown-wrapper"><button class="navbar-dropdown-title" type="button" aria-label="选择语言"><span class="title">选择语言</span><span class="arrow down"></span></button><button class="navbar-dropdown-title-mobile" type="button" aria-label="选择语言"><span class="title">选择语言</span><span class="right arrow"></span></button><!--[--><ul style="display:none;" class="navbar-dropdown"><!--[--><li class="navbar-dropdown-item"><a aria-current="page" href="/" class="router-link-active router-link-exact-active" aria-label="简体中文"><!--[--><!--]--> 简体中文 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/en/" class="" aria-label="English"><!--[--><!--]--> English <!--[--><!--]--></a></li><!--]--></ul><!--]--></div></div><!--]--></nav><!--[--><!--]--><!----><!--[--><!--]--></aside><!--]--><!--[--><main class="home"><header class="hero"><img src="https://sdn.geekzu.org/avatar/deb6addcb5b3df43e93b3d7cb0caa46a?s=150" alt="LiCaoZ"><h1 id="main-title">LiCaoZ</h1><p class="description">嗨，我是 LiCaoZ！</p><p class="actions"><!--[--><a href="/about.html" class="action-button primary" aria-label="了解更多"><!--[--><!--]--> 了解更多 <!--[--><!--]--></a><!--]--></p></header><div class="features"><!--[--><div class="feature"><h2>技能树</h2><p>可能是倒着点的技能树</p></div><div class="feature"><h2>当前坐标</h2><p>重庆市合川区</p></div><!--]--></div><div class="theme-default-content custom"></div><!--[--><div class="footer"><a href="//beian.miit.gov.cn/#/Integrated/recordQuery" rel="noopener noreferrer nofollow">渝ICP备2020010307号-2</a> | <a href="//www.beian.gov.cn/portal/registerSystemInfo?recordcode=50011702500718" rel="noopener noreferrer nofollow">渝公网安备50011702500718号</a> | <a href="//icp.gov.moe/?keyword=20222468" rel="noopener noreferrer nofollow">萌ICP备20222468号</a></div><!--]--></main><!--]--></div><!----><!--]--></div>
-    <script type="module" src="/assets/app.d8e9d425.js" defer></script>
-  </body>
+</body>
+
 </html>
